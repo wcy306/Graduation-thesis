@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\3DShowDll">
+      <UniqueIdentifier>{3cef51d1-a22b-4782-a4b2-38662e570cdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\InfiniteLoop">
+      <UniqueIdentifier>{9aaa1254-2080-44b7-a3d3-e2654a08c318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OtherSampleDialog">
+      <UniqueIdentifier>{f708ec29-98dd-41f5-a05d-5afa6a88c2cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SettingDialog">
+      <UniqueIdentifier>{d375b3d1-a685-40d1-8257-b999d40d5522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SR_SdkDll">
+      <UniqueIdentifier>{37004370-f4f2-484a-b35e-89531568c342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InfiniteLoop">
+      <UniqueIdentifier>{754b2358-35db-4881-b478-42529909c94f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OtherSampleDialog">
+      <UniqueIdentifier>{30217bda-7971-4249-9714-de3f272c1bfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SettingDialog">
+      <UniqueIdentifier>{152be283-9f6d-4769-b1e9-f71453ecd277}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Detec3Dsr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Detec3DsrDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3DShowDll\SR3dexe.h">
+      <Filter>Header Files\3DShowDll</Filter>
+    </ClInclude>
+    <ClInclude Include="InfiniteLoop\InfiniteLoop.h">
+      <Filter>Header Files\InfiniteLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherSampleDialog\OtherSampleDlg.h">
+      <Filter>Header Files\OtherSampleDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingDialog\SettingDialog.h">
+      <Filter>Header Files\SettingDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="SR_SdkDll\SR7Link.h">
+      <Filter>Header Files\SR_SdkDll</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Detec3Dsr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Detec3DsrDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InfiniteLoop\InfiniteLoop.cpp">
+      <Filter>Source Files\InfiniteLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="OtherSampleDialog\OtherSampleDlg.cpp">
+      <Filter>Source Files\OtherSampleDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingDialog\SettingDialog.cpp">
+      <Filter>Source Files\SettingDialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Detec3Dsr.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Detec3Dsr.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Detec3Dsr.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
